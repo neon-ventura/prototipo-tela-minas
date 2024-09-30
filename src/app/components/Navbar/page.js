@@ -1,8 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
-import logoimg from '../../public/logo.png'
+import logoimg from '../../../../public/logo.png'
 import styles from './Navbar.module.css'
-import "../../src/app/globals.css";
+import "@/app/globals.css";
 
 export default function Navbar(){
     return(
